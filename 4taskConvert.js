@@ -1,5 +1,4 @@
 function convert(nilai){
-  let int = " ";
 
   if(nilai >= 86 && nilai <= 100){
     return "A";
