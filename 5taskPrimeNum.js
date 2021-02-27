@@ -1,12 +1,16 @@
-function bilangan(prima){
-  let angka = '';
-
-  if(prima / prima){
-    console.log(prima + ' adalah bilangan Prima');
-  } else {
-    console.log('bukan bilangan prima');
+function apakahPrima(angka) {
+  let bagi = 0;
+  
+  for(let i = 1; i <= angka; i++){
+    if (angka % i === 0){
+      bagi++;
+    } 
   }
-    return angka;
+  if(bagi == 2){
+    console.log(angka, 'adalah bilangan Prima');
+  } else {
+    console.log(angka, 'adalah bukan bilanngan Prima');
+  }
 };
 
-console.log(bilangan(21));
+apakahPrima(7);
