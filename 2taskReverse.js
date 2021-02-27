@@ -1,3 +1,5 @@
+
+
 //========= Output TYpe Data String ===========//
 
 function balikAngka(nomor) {
@@ -8,9 +10,9 @@ console.log(balikAngka(1234));
 
 //======= Output Type Data Number =============//
 
-function balikAngka(nomor) {
+function reverseAngka(nomor) {
   let inputString = String(nomor).split('').reverse().join('');
   return Number(inputString);
 }
 
-console.log(balikAngka(1234));
+console.log(reverseAngka(1234));
