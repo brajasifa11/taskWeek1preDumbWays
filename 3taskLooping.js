@@ -22,7 +22,7 @@ console.log(satu(15)); // String
 
           //========= Kuadrat ===========//
 
-function satu(angka){
+function tiga(angka){
   let i = 1;
   let naik = []
   
@@ -34,7 +34,7 @@ function satu(angka){
   return naik.join(' ');
   }
   
-  console.log(satu(15)); // String
+  console.log(tiga(15)); // String
 
           //========= Kuadrat ===========//
 
@@ -47,7 +47,7 @@ function kelipatan(input){
 
   do {
     i++;
-    console.log(tiga, "pertama");
+
     nilaiAwal += 3;
     tiga.push(nilaiAwal);
   }
